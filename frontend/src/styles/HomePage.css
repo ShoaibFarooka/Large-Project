@@ -1,0 +1,88 @@
+
+/*
+button {
+    background-color: #ff4b5c; 
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-out; 
+}
+
+
+button:hover {
+    background-color: #e43f4f; 
+}
+*/
+/* HomePage.css */
+
+/* Additional styles for the panel layout */
+
+.panel {
+    background-color: rgba(50, 50, 93, 0.95); /* dark blue with higher transparency */
+    border-radius: 10px; /* smoother corners */
+    padding: 2em;
+    width: auto; /* adjust according to your layout */
+    margin: 2em auto; /* centers the panel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 1em; /* adds space between elements */
+  }
+  /* Add Task button style */
+  button {
+    background-color: #ff4b5c; /* Bright red similar to the image */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+  }
+  .panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .panel-title {
+    font-size: 1.5em;
+    color: #fff;
+  }
+  
+  /* Style for the task input fields within the panel */
+  .panel input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+  }
+  
+  /* Task button within the panel */
+  .panel button {
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+  }
+  
+  /* This style will apply to all text inside the panel */
+  .panel p, .panel label {
+    color: #fff;
+  }
+  
+  /* Optionally, you could use this style for the add button if it's different from other buttons */
+  #addTask {
+    background-color: #ff4b5c; /* Add Task button color */
+    /* rest of the styles are inherited from button */
+  }
+  
+  /* Style for the submit button within the task form */
+  .task-form button {
+    /* Your specific styles for submit button */
+  }
+  
